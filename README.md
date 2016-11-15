@@ -6,7 +6,7 @@ Shell chronicle uses a Linux trap statement to call
 an archiving function every time you exit the terminal.
 The archiving function appends all commands used to
 a (potentially large) text file by default called
-bash_history.archive. This archive can be retained
+~/.bash_history.archive. This archive can be retained
 indefinitely and can be searched like a standard bash history.
 
 # How to use it
